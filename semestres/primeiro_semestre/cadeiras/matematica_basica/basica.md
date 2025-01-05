@@ -3,7 +3,7 @@ A Primeira atividade avaliativa foi fazer as 10 primeiras questões do livro
 e algumas questões que ele passou no quadro.
 
 A segunda atividade Avaliativa foi fazer as questões que não estavam em vermelho na lista
-[`Lista Conjuntos`](semestres/primeiro_semestre/cadeiras/matematica_basica/Lista_Conjuntos.pdf)
+[`Lista Conjuntos`](Lista_Conjuntos.pdf)
 , as questões em vermelho já foram resolvidas:
 Teoria dos Conjuntos\
 Exercício 05 - Teoria dos conjuntos\
@@ -22,6 +22,6 @@ Questão 37-item C\
 https://youtu.be/XyPYLSqhGpA \
 Teoria dos Conjuntos - Questão 40
 
-A terceira atividade avaliativa, pediu para resolver todas as questões da lista [`Lista de Relações`](semestres/primeiro_semestre/cadeiras/matematica_basica/lista_relações.pdf)
+A terceira atividade avaliativa, pediu para resolver todas as questões da lista [`Lista de Relações`](lista_relações.pdf)
 
 É isso por enquanto
