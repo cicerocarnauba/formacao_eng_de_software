@@ -11,7 +11,7 @@ https://youtu.be/nC0ne96Vq58 \
 Exercício 15 - Teoria dos conjuntos\
 https://youtu.be/dZKpe7zVGQ8 \
 Exercício 24 - Teoria dos conjuntos\
-https://youtu.be/eZSVOTAcJN8 \ 
+https://youtu.be/eZSVOTAcJN8 \
 Questão 37 item A\
 https://www.youtube.com/watch?v=7Qnc3BgpUfQ \
 Questão 37-item C\
