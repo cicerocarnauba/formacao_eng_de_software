@@ -1,4 +1,4 @@
-A Primeira atividade avaliativa foi fazer as 10 primeiras questões do livro 
+-A Primeira atividade avaliativa foi fazer as 10 primeiras questões do livro 
 [`Fundamentos de matemática elementar`](fundamentos_da_matematica_lienar.pdf)
 e algumas questões que ele passou no quadro.
 
@@ -24,4 +24,4 @@ Teoria dos Conjuntos - Questão 40
 
 A terceira atividade avaliativa, pediu para resolver todas as questões da lista [`Lista de Relações`](lista_relações.pdf)
 
-É isso por enquanto
+Oprofessor fezuma prova, e Passou um trabalho.
