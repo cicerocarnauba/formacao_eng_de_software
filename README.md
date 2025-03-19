@@ -4,3 +4,4 @@ Esse é o repositório para guardar o que foi feito na minha formação como Eng
 
 ### [`1º Semestre`](semestres/primeiro_semestre/1semestre.md)
 ### [`2º Semestre`](semestres/segundo_semestre/2semestre.md)
+### [`3º Semestre`](semestres/terceiro_semestre/3semestre.md)
