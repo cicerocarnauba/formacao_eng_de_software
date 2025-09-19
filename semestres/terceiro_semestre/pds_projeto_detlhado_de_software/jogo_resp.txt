@@ -1,0 +1,33 @@
+
+
+- Sortear número secreto (intervalo selecionado pelo usuario)
+- Receber palpite do usuario
+- Comparar palpite com o número secreto
+    retorno verdadeiro ou falso
+- Informar se o número é maior ou menor
+- Caso menor ou maior, receber outro palpite e repetir processos anteriores
+- Caso acertado o número secreto, informar que o número está correto
+
+
+Classe 
+
+TelaDoJogo - Fronteira
+ - LerPalpite()
+ - MostrarResultado()
+ - PerguntarIntervalo()
+
+
+Jogo 
+ - Número Secreto
+
+ - CancelarPartida()
+ - PausarPartida()
+ - GerarNúmeroSecreto()
+
+ControladorJogo - Controle
+ -
+
+ - CompararNúmeros()
+ - InfomarUsuarioErro()
+ - InfomarUsuarioAcerto()
+
