@@ -11,6 +11,6 @@ OBS:
 
 ### [`Requisitos de Software`](cadeiras/req_requisitos_de_software/req.md)
 
-### [`Processos de Software`](cadeiras/ps/ps_processos_de_software.md)
+### [`Processos de Software`](cadeiras/ps_processos_de_software/ps.md)
 
 ### [`Fundamentos de Banco de Dados`](cadeiras/fbd_fundamentos_de_banco_de_dados/fbd.md)
