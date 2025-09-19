@@ -7,8 +7,6 @@ OBS:
 
 ### [`Matemática Discreta`](cadeiras/ihc/ihc.md)
 
-### [`Sistemas Operacionais`](cadeiras/etica/etica.md)
-
 ### [`Análise e Projeto de Sistemas`](cadeiras/fup/fup.md)
 
 ### [`Estrutura de Dados`](cadeiras/arquitetura_de_computadores/arq_comp.md)
