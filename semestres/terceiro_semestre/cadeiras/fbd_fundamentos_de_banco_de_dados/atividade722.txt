@@ -1,0 +1,15 @@
+7.22. Um banco de dados está sendo construído para registrar os times e jogos de
+uma liga esportiva. Um time tem uma série de jogadores, nem todos participam de
+todos os jogos. Deseja-se registrar os jogadores que participam em cada jogo para
+cada time, as posições em que eles jogaram e o resultado do jogo. Crie um
+diagrama de esquema ER para essa aplicação, indicando quaisquer suposições que
+você fizer. Escolha seu esporte favorito (por exemplo, futebol, basquete, voleibol)..
+
+
+Valorant
+
+Entidades
+
+Jogador
+Time
+Jogos

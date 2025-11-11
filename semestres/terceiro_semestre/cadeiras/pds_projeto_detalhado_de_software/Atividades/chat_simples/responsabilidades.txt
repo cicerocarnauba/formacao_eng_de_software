@@ -1,0 +1,24 @@
+Cliente
+    Solicita Conexão
+        Aguarda confirmação
+        Recebe Confirmação
+    
+    Manda requisição de Mensagem
+        Aguarda retorno
+    Recebe retorno de mensagem
+    Mandar encerramento de conxeão
+    encerrar conexão
+
+
+Servidor
+    Aguarda Conexão
+
+    Conexão Estabelicida
+        Retorna mensagem
+
+    Aguarda requisicação
+        Recebe a requisição de mensagem
+        retorna a mensagem
+    
+    Recebe Encerramento
+        Exibir desconexão
