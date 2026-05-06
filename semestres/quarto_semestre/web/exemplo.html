@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exemplos de CSS Transitions</title>
+ <style>
+ /* Estilização básica da página */
+ body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #f4f7f6;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 40px;
+ padding: 50px;
+ }
+ .section {
+ text-align: center;
+ padding: 20px;
+ background: white;
+ border-radius: 8px;
+ box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+ width: 350px;
+ }
+ h3 { color: #333; margin-bottom: 20px; }
+ /* 1. BOTÃO: Transição de Cor */
+ .botao {
+ padding: 12px 24px;
+ font-size: 16px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ color: white;
+ background-color: #3498db;
+ /* A transição SEMPRE no estado original */
+ transition: background-color 0.3s ease;
+ }
+ .botao:hover {
+ background-color: #2ecc71;
+ }
+ /* 2. INPUT: Transição de Largura */
+ .input-busca {
+ width: 150px;
+ padding: 10px;
+ border: 2px solid #ccc;
+ border-radius: 20px;
+ outline: none;
+ transition: width 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+ .input-busca:focus {
+ width: 280px;
+ border-color: #3498db;
+ }
+ /* 3. CARD: Transição de Elevação (Transform) */
+ .card {
+ padding: 20px;
+ background: #fff;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ cursor: pointer;
+ }
+ .card:hover {
+ transform: translateY(-10px);
+ box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+ }
+ /* 4. LEGENDA: Transição de Opacidade (Fade) */
+ .container-foto {
+ position: relative;
+ width: 200px;
+ height: 150px;
+ background: #2c3e50;
+ margin: 0 auto;
+ border-radius: 5px;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ }
+ .legenda {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: rgba(0,0,0,0.7);
+ padding: 10px;
+ opacity: 0; /* Escondido */
+ transition: opacity 0.5s ease;
+ }
+ .container-foto:hover .legenda {
+ opacity: 1; /* Aparece suavemente */
+ }
+ </style>
+</head>
+<body>
+ <div class="section">
+ <h3>1. Mudança de Cor</h3>
+ <button class="botao">Passe o mouse aqui</button>
+ </div>
+ <div class="section">
+ <h3>2. Expandir ao Clicar</h3>
+ <input type="text" class="input-busca" placeholder="Clique para pesquisar...">
+ </div>
+ <div class="section">
+ <h3>3. Efeito de Elevação</h3>
+ <div class="card">
+ <strong>Hover me!</strong>
+ <p>Eu subo suavemente.</p>
+ </div>
+ </div>
+ <div class="section">
+ <h3>4. Fade-in de Legenda</h3>
+ <div class="container-foto">
+ [FOTO]
+ <div class="legenda">Olá! Eu apareci.</div>
+ </div>
+ </div>
+</body>
+</htm
