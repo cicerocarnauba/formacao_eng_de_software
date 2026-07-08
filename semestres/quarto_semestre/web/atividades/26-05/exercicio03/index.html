@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="calculadora">
+        <input id="display" type="text" readonly>
+
+        <div id="botoes">
+            <div id="principal">
+                <div class="linha" id="linha-topo">
+                    <button id="botao-limpar" onclick="limpar()">C</button>
+                </div>
+                <div class="linha">
+                    <button onclick="digitar('7')">7</button>
+                    <button onclick="digitar('8')">8</button>
+                    <button onclick="digitar('9')">9</button>
+                    <button onclick="digitar('+')">+</button>
+                </div>
+                <div class="linha">
+                    <button onclick="digitar('4')">4</button>
+                    <button onclick="digitar('5')">5</button>
+                    <button onclick="digitar('6')">6</button>
+                    <button onclick="digitar('-')">-</button>
+                </div>
+                <div class="linha">
+                    <button onclick="digitar('1')">1</button>
+                    <button onclick="digitar('2')">2</button>
+                    <button onclick="digitar('3')">3</button>
+                    <button onclick="digitar('/')">÷</button>
+                </div>
+                <div class="linha">
+                    <button id="botao-zero" onclick="digitar('0')">0</button>
+                    <button onclick="digitar('.')">.</button>
+                    <button onclick="digitar('*')">×</button>
+                </div>
+            </div>
+            <div id="coluna5">
+                <button id="botao-remover" onclick="apagar()">⌫</button>
+                <button id="botao-igual"   onclick="calcular()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

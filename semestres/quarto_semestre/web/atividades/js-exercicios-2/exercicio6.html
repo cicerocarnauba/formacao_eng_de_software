@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja - Black Friday</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            min-height: 100vh;
+            transition: background-color 0.6s ease;
+        }
+
+        .banner-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+        }
+
+        #banner-principal,
+        #banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        #banner-overlay {
+            opacity: 0;
+            transition: opacity 0.8s ease;
+        }
+
+        .produtos-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+
+        .produto-card {
+            background: #FB5765;
+            padding: 30px 40px;
+            border-radius: 12px;
+            border: 2px solid #FB5765;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            min-width: 160px;
+            text-align: center;
+            transition: background 0.5s ease, color 0.5s ease, border-color 0.5s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .produto-card:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+
+        .black-friday-theme {
+            background-color: #1a1a1a;
+            color: #FFD700;
+            border-color: #FFD700;
+        }
+
+        .botao-container {
+            display: flex;
+            justify-content: center;
+            padding: 10px 20px 40px;
+        }
+
+        button {
+            padding: 14px 36px;
+            background-color: #000;
+            color: #FFD700;
+            border: 2px solid #FFD700;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease, background-color 0.4s ease, color 0.4s ease;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        #cupom-secreto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner-container">
+        <img id="banner-principal" src="https://wallpaperaccess.com/full/509042.jpg" alt="Promoções">
+        <img id="banner-overlay" src="" alt="Promoções Black Friday">
+    </div>
+
+    <div class="produtos-container">
+        <div class="produto-card">Smartphone</div>
+        <div class="produto-card">Notebook</div>
+        <div class="produto-card">Fone Bluetooth</div>
+    </div>
+
+    <div class="botao-container">
+        <button id="btn-black-friday" onclick="ativarBlackFriday()">Ativar Modo Black Friday</button>
+    </div>
+
+    <p id="cupom-secreto">CUPOM: JSBLACK20</p>
+
+    <script src="exercicio6.js"></script>
+</body>
+</html>
