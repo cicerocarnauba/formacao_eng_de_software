@@ -6,11 +6,11 @@ Bem-vindo! Este é o meu repositório onde eu guardo os materiais das cadeiras q
 
 ### 🔗 [1º Semestre](./semestres/primeiro_semestre/README.md)
 
-_Arquitetura de Computadores, Fundamentos da Programação (FUP), IHC, Matemática Básica, Redes de Computadores, Ética_
+_Arquitetura de Computadores, Fundamentos da Programação (FUP), Interação Humano Computador (IHC), Matemática Básica, Redes de Computadores, Ética_
 
 ### 🔗 [2º Semestre](./semestres/segundo_semestre/README.md)
 
-_Análise e Projeto de Sistemas (APS), Estrutura de Dados (ED), IES, Matemática Discreta, Probabilidade e Estatística_
+_Análise e Projeto de Sistemas (APS), Estrutura de Dados (ED), Introdução à Engenharia de Software (IES), Matemática Discreta, Probabilidade e Estatística_
 
 ### 🔗 [3º Semestre](./semestres/terceiro_semestre/README.md)
 
