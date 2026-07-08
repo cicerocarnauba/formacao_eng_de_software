@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Maroto – Personagens de Harry Potter</title>
+    <meta name="description" content="Explore os personagens do universo de Harry Potter através do lendário Mapa do Maroto.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="tela-mapa">
+        <div id="env-mapa">
+            <img id="img-mapa" src="https://wallpapers.com/images/hd/marauders-map-from-harry-potter-bfysqiyu0x7liolg.jpg" alt="Mapa do Maroto">
+            <div id="dica-mapa">
+                <span>Juro solenemente não fazer nada de bom!</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="tela-pers" class="oculto">
+
+        <header>
+            <div id="cabecalho">
+                <h1>Mapa do Maroto</h1>
+            </div>
+        </header>
+
+        <nav id="abas">
+            <button class="aba ativa" data-casa="Todos">Todos</button>
+            <button class="aba grif" data-casa="Gryffindor">Grifinória</button>
+            <button class="aba sons" data-casa="Slytherin">Sonserina</button>
+            <button class="aba lufa" data-casa="Hufflepuff">Lufa-Lufa</button>
+            <button class="aba corv" data-casa="Ravenclaw">Corvinal</button>
+        </nav>
+
+        <div id="carregando">Revelando personagens...</div>
+        <div id="msg-erro" style="display: none;"></div>
+        <div id="grade"></div>
+
+        <button id="btn-voltar">Mal feito, feito!</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
