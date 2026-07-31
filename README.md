@@ -20,13 +20,13 @@ _Banco de Dados (FBD), Gerência de Configuração (GC), Linguagens de Programa�
 
 _Desenvolvimento Web, Lógica Matemática, Projeto Integrador 2 (PI2), Sistemas Operacionais (SO), Validação e Verificação (V&V)_
 
-### 🔗 [5º ao 8º Semestre](./semestres/quinto_semestre/README.md)
+### 🔗 [5º Semestre](./semestres/quinto_semestre/README.md)
 
-_(A definir...)_
+_Arquitetura de Software (ARQ_SOFT), Desenvolvimento Mobile (MOBILE), Gerência de Projetos (GP), Projeto e Análise de Algoritmos (PAA), Projeto Integrado em Engenharia de Software I (PI_1), Projeto Integrado em Engenharia de Software III (PI_3), Qualidade de Software (QUALIDADE)_
 
 ### 🔗 [Cadeiras Avulsas](./semestres/cadeiras%20avulsas/README.md)
 
-_Projeto e Análise de Algoritmos (PAA), Sistemas Multiagentes (SMA)_
+_Sistemas Multiagentes (SMA)_
 
 ---
 
