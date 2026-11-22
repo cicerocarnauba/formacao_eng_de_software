@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Microkernel - Steam Client" id="Microkernel_-_Steam_Client">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n58" value="MICROKERNEL&#10;(Núcleo Mínimo do Launcher)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF6FF;strokeColor=#666666;verticalAlign=top;align=center;fontStyle=1;fontSize=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="n59" value="MÓDULOS PLUG-IN (independentes, plugáveis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;verticalAlign=top;align=center;fontStyle=1;fontSize=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="1500" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n60" value="🧩 Núcleo: Gerenciador de Plugins&#10;(Plugin Registry)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#333333;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n61" value="🔐 Autenticação Básica&#10;(login / token de sessão)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" value="🖥️ Shell / Interface Base&#10;do Launcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n63" value="📡 Barramento de Comunicação Interna&#10;(eventos entre plugins)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n64" value="«contrato»&#10;IPluginInterface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;fontStyle=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="410" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n65" value="🛒 Plugin Loja&#10;(Store)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n66" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n67" value="📚 Plugin Biblioteca&#10;de Jogos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="255" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n68" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n69" value="💬 Plugin Amigos&#10;&amp; Chat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n70" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n71" value="🏆 Plugin Conquistas&#10;(Achievements)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="645" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n72" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n73" value="☁️ Plugin Cloud Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n74" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n75" value="🛠️ Plugin Workshop&#10;(Mods)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n76" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n77" value="🎥 Plugin Overlay&#10;(in-game)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n78" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n79" value="📺 Plugin Remote Play&#10;(Streaming)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n80" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n64" target="n79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n60" target="n64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n82" value="🔀 Load Balancer&#10;(Loja)" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n83" value="🗄️ DB Catálogo/Preços" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#F8CECC;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="735" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n84" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n65" target="n82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n85" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n82" target="n83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n86" value="🗄️ DB Biblioteca&#10;(jogos do usuário)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#F8CECC;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="255" y="660" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n87" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n67" target="n86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n88" value="🖧 Servidor de Chat&#10;(tempo real)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n89" value="🗄️ DB Amigos/Mensagens" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#F8CECC;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="735" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n90" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n69" target="n88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n91" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n88" target="n89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n92" value="🗄️ DB Conquistas" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#F8CECC;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="645" y="660" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n93" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n71" target="n92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n94" value="☁️ Object Storage&#10;(saves na nuvem)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="840" y="660" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n95" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n73" target="n94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n96" value="🗄️ DB Mods/Workshop" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#F8CECC;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="660" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n97" value="☁️ CDN de Mods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="735" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n98" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n75" target="n96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n99" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n96" target="n97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n100" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#999999;dashed=1;" edge="1" parent="1" source="n77" target="n62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n101" value="🔀 Load Balancer&#10;(Streaming)" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#333333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="660" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n102" value="🖧 Servidores de Mídia&#10;(encode/streaming)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#333333;fontSize=11;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="735" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n103" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n79" target="n101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n104" value="" style="endArrow=block;html=1;rounded=0;" edge="1" parent="1" source="n101" target="n102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
