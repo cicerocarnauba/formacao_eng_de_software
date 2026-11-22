@@ -17,6 +17,6 @@ Esta cadeira foca na garantia da qualidade do software, testabilidade e boas pr�
 - **Prática Estoque**: Projeto Java (`Estoque.java`, `ItemDeCompra.java`) focado em aplicar técnicas de V&V na prática de código.
 - Guia TDD passo a passo (`.docx`).
 
-### 📖 Bibliografia e Atividades
-- Livro: *BDD in Action* (PDF).
+### Bibliografia e Atividades
+- **Livro de Referência:** *BDD in Action* — John Ferguson Smart *(não versionado neste repositório por direitos autorais)*.
 - Listas de exercícios teóricos e práticos.
