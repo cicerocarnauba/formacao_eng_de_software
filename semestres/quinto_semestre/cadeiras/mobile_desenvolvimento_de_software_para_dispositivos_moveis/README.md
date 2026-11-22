@@ -23,3 +23,22 @@ Visão geral sobre dispositivos móveis: Comparação entre dispositivos de sens
 
 > **Como executar os projetos Node/Expo:** as pastas `node_modules/` e `.expo/` não são versionadas. Entre na pasta do projeto desejado e execute `npm install` antes de iniciar.
 
+---
+
+## Projetos da Disciplina
+
+### App Mobile de Mensageria
+
+**Repositório:** [Layssaoliveira26/App--Mobile-Mensageria](https://github.com/Layssaoliveira26/App--Mobile-Mensageria)
+
+Aplicativo móvel de mensageria desenvolvido com **React Native**, **Expo** e **React Navigation** (`@react-navigation/native` e `@react-navigation/stack`), aplicando navegação entre telas e construção de interfaces móveis de forma colaborativa via GitHub.
+
+**Equipe:**
+- Cícero Higor de Medeiros Carnaúba
+- Emilly Wictoria Pinheiro Ferreira
+- Layssa da Silva de Oliveira
+
+### Metria (Integrado com PI_3)
+
+O projeto final integrado da disciplina — **Metria** (Sistema de Registro e Acompanhamento de Medições em Construções Civis) — está documentado em detalhes no README de [PI_3](../pi_3_projeto_integrado_em_engenharia_de_software_iii/README.md).
+
