@@ -15,8 +15,6 @@ Definição de arquitetura de software. A importância e o impacto em um empreen
 
 ## Livros de Referência
 
-> Os PDFs dos livros não são versionados neste repositório por questões de direitos autorais.
-
 - **Fundamentals of Software Architecture: An Engineering Approach** — Mark Richards & Neal Ford (O'Reilly, 1st ed., 2020)
 - **Software Architecture in Practice** — Len Bass, Paul Clements & Rick Kazman (SEI Series in Software Engineering, 4th ed., 2021)
 

@@ -14,8 +14,6 @@ Conceitos, terminologia e contexto de gerência de projetos. Ciclo de vida de pr
 
 ## Livros de Referência
 
-> Os PDFs dos livros não são versionados neste repositório por questões de direitos autorais.
-
 - **Guia PMBOK (7ª Edição)** — Project Management Institute (PMI, 2021)
 - **PMBOK® Guide (8th Edition)** — Project Management Institute (PMI, 2025)
 - **Software Requirements (3rd Edition)** — Karl Wiegers & Joy Beatty (Microsoft Press, 2013)

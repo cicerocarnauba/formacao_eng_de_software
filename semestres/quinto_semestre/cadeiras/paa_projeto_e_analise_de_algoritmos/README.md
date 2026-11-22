@@ -17,8 +17,6 @@ Projeto de algoritmos: força bruta; gulosos; divisão e conquista; programaçã
 
 ## Livros de Referência
 
-> Os PDFs dos livros não são versionados neste repositório por questões de direitos autorais.
-
 - **Introduction to Algorithms** — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein (3ª e 4ª ed., MIT Press)
 - **Desmistificando Algoritmos** — Thomas H. Cormen (Elsevier, 2013)
 - **The Algorithm Design Manual** — Steven S. Skiena (Springer, 2020)

@@ -2,8 +2,6 @@
 
 Bem-vindo! Este é o meu repositório onde guardo os materiais das cadeiras cursadas durante a graduação em Engenharia de Software pela **Universidade Federal do Ceará (UFC)**.
 
-> **Nota sobre livros:** Os PDFs de livros-texto protegidos por direitos autorais não são hospedados neste repositório; eles são apenas referenciados na seção de bibliografia dos respectivos READMEs.
-
 ## Navegação por Semestres
 
 ### [1º Semestre](./semestres/primeiro_semestre/README.md) (Concluído)

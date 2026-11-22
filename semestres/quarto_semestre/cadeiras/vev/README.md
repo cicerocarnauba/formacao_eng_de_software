@@ -18,5 +18,5 @@ Esta cadeira foca na garantia da qualidade do software, testabilidade e boas pr�
 - Guia TDD passo a passo (`.docx`).
 
 ### Bibliografia e Atividades
-- **Livro de Referência:** *BDD in Action* — John Ferguson Smart *(não versionado neste repositório por direitos autorais)*.
+- **Livro de Referência:** *BDD in Action* — John Ferguson Smart.
 - Listas de exercícios teóricos e práticos.
