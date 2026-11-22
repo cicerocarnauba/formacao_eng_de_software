@@ -1,3 +1,16 @@
+# Dependências e caches
+node_modules/
+.expo/
+__MACOSX/
+.DS_Store
+Thumbs.db
+.venv/
+__pycache__/
+
+# Livros (mantidos apenas localmente por direitos autorais; referenciados nos READMEs)
+**/livros/
+
+# Arquivos e pastas específicos ignorados
 semestres/segundo_semestre/cadeiras/ed_estrutura_de_dados/tarefas-higormcarnauba/
 semestres/segundo_semestre/cadeiras/ies_introducao_a_engenharia_de_software/TRABALHO FINAL/Manja,.psd
 semestres/segundo_semestre/cadeiras/matematica_discreta/anotacoes/Somatório _250919_104042.sdocx
@@ -5,5 +18,5 @@ semestres/terceiro_semestre/cadeiras/pds_projeto_detalhado_de_software/Atividade
 semestres/terceiro_semestre/cadeiras/gc_gerencia_de_configuracao/codes/aula1-git
 semestres/terceiro_semestre/cadeiras/gc_gerencia_de_configuracao/codes/aula2_git/exemplo/
 semestres/terceiro_semestre/cadeiras/gc_gerencia_de_configuracao/perfil_git/higormcarnauba/
+semestres/quarto_semestre/cadeiras/pi2/
 /estagio
-/home/higor/formacao_eng_de_software/semestres/quarto_semestre/pi2
