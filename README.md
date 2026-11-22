@@ -1,30 +1,32 @@
-# Engenharia de Software - UFC 🎓
+# Engenharia de Software - UFC
 
-Bem-vindo! Este é o meu repositório onde eu guardo os materiais das cadeiras que cursei durante meu curso de Engenheiro de Software pela **Universidade Federal do Ceará (UFC)**.
+Bem-vindo! Este é o meu repositório onde guardo os materiais das cadeiras cursadas durante a graduação em Engenharia de Software pela **Universidade Federal do Ceará (UFC)**.
 
-## 🗂️ Navegação por Semestres
+> **Nota sobre livros:** Os PDFs de livros-texto protegidos por direitos autorais não são hospedados neste repositório; eles são apenas referenciados na seção de bibliografia dos respectivos READMEs.
 
-### 🔗 [1º Semestre](./semestres/primeiro_semestre/README.md)
+## Navegação por Semestres
+
+### [1º Semestre](./semestres/primeiro_semestre/README.md) (Concluído)
 
 _Arquitetura de Computadores, Fundamentos da Programação (FUP), Interação Humano Computador (IHC), Matemática Básica, Redes de Computadores, Ética_
 
-### 🔗 [2º Semestre](./semestres/segundo_semestre/README.md)
+### [2º Semestre](./semestres/segundo_semestre/README.md) (Concluído)
 
 _Análise e Projeto de Sistemas (APS), Estrutura de Dados (ED), Introdução à Engenharia de Software (IES), Matemática Discreta, Probabilidade e Estatística_
 
-### 🔗 [3º Semestre](./semestres/terceiro_semestre/README.md)
+### [3º Semestre](./semestres/terceiro_semestre/README.md) (Concluído)
 
 _Banco de Dados (FBD), Gerência de Configuração (GC), Linguagens de Programação (LIP), Processos de Software (PS), Projeto Detalhado (PDS), Requisitos (REQ)_
 
-### 🔗 [4º Semestre](./semestres/quarto_semestre/README.md)
+### [4º Semestre](./semestres/quarto_semestre/README.md) (Concluído)
 
 _Desenvolvimento Web, Lógica Matemática, Projeto Integrador 2 (PI2), Sistemas Operacionais (SO), Validação e Verificação (V&V)_
 
-### 🔗 [5º Semestre](./semestres/quinto_semestre/README.md)
+### [5º Semestre](./semestres/quinto_semestre/README.md) (Em andamento)
 
 _Arquitetura de Software (ARQ_SOFT), Desenvolvimento Mobile (MOBILE), Gerência de Projetos (GP), Projeto e Análise de Algoritmos (PAA), Projeto Integrado em Engenharia de Software I (PI_1), Projeto Integrado em Engenharia de Software III (PI_3), Qualidade de Software (QUALIDADE)_
 
-### 🔗 [Cadeiras Avulsas](./semestres/cadeiras%20avulsas/README.md)
+### [Cadeiras Avulsas](./semestres/cadeiras_avulsas/README.md)
 
 _Sistemas Multiagentes (SMA)_
 
@@ -32,5 +34,5 @@ _Sistemas Multiagentes (SMA)_
 
 <p align="center">
   <i>Desenvolvido durante a graduação em Engenharia de Software - UFC</i><br>
-  <b>🚀 Início:</b> Semestre 2024.2
+  <b>Início:</b> Semestre 2024.2
 </p>

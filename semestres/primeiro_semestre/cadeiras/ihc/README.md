@@ -21,3 +21,8 @@ Uma coleção completa de slides abordando os principais tópicos de IHC, inclui
 - **Avaliação de Jogos** (PDF)
 - **Avaliação Heurística** (PDF)
 - **Sistemas Ubíquos** (PDF)
+
+### Livro de Referência
+> O PDF do livro não é versionado neste repositório por questões de direitos autorais.
+
+- **Interação Humano-Computador** — Simone Diniz Junqueira Barbosa & Bruno Santana da Silva

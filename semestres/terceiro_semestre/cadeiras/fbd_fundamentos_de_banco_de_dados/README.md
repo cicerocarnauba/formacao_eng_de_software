@@ -23,3 +23,8 @@ Este repositório contém todo o material teórico e prático desenvolvido ao lo
 
 ### 📝 Provas Antigas
 - Fotos e registros de exames passados para estudo.
+
+### Livro de Referência
+> O PDF do livro não é versionado neste repositório por questões de direitos autorais.
+
+- **Sistemas de Banco de Dados (6ª Edição)** — Ramez Elmasri & Shamkant B. Navathe
