@@ -1,14 +1,16 @@
 # Introdução à Engenharia de Software (IES)
 
+[Voltar ao 2º Semestre](../../README.md)
+
 Bem-vindo ao repositório da disciplina **Introdução à Engenharia de Software**.
 
-## 📚 Conteúdo
+## Conteúdo
 
-### 📑 Slides de Aula
+### Slides de Aula
 - Fundamentos de Computação
 - Conceitos Básicos da Engenharia de Software
 - Apresentação dos Projetos da Disciplina
 
-### 🏆 Trabalho Final e Slide Manual
+### Trabalho Final e Slide Manual
 - Cartões e materiais visuais (PNG, PDF).
 - **Slide Manual:** Imagens de pranchetas utilizadas na apresentação.

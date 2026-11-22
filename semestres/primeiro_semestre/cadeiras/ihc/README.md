@@ -1,12 +1,14 @@
 # Interação Humano-Computador (IHC)
 
+[Voltar ao 1º Semestre](../../README.md)
+
 Bem-vindo ao repositório da disciplina **Interação Humano-Computador**.
 
 Nesta pasta você encontra as principais aulas e materiais de apoio (slides) utilizados na disciplina.
 
-## 📂 Conteúdo
+## Conteúdo
 
-### 📊 Slides de Aulas
+### Slides de Aulas
 Uma coleção completa de slides abordando os principais tópicos de IHC, incluindo:
 - Conceitos Básicos de IHC
 - Processos de Design
@@ -17,7 +19,7 @@ Uma coleção completa de slides abordando os principais tópicos de IHC, inclui
 - Teste de Usabilidade e Prototipação em Papel
 - Métodos de Inspeção Semiótica e de Avaliação de Comunicabilidade
 
-### 📚 Materiais Extras
+### Materiais Extras
 - **Avaliação de Jogos** (PDF)
 - **Avaliação Heurística** (PDF)
 - **Sistemas Ubíquos** (PDF)

@@ -1,10 +1,12 @@
 # Gerência de Configuração (GC)
 
+[Voltar ao 3º Semestre](../../README.md)
+
 Bem-vindo ao repositório da disciplina **Gerência de Configuração**.
 
 Nesta cadeira, estuda-se versionamento de código, integração contínua, entrega contínua (CI/CD) e orquestração de ambientes.
 
-## 📂 Estrutura do Diretório
+## Estrutura do Diretório
 
 - **Slides (Lana e Sidartha)**: Apresentações e materiais de apoio divididos pelos professores.
 - **Atividades**: Práticas com Docker, Docker Compose, Git e versionamento de software.

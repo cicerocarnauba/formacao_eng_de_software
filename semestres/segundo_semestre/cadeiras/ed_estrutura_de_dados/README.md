@@ -1,5 +1,7 @@
 # Estrutura de Dados (ED)
 
+[Voltar ao 2º Semestre](../../README.md)
+
 Bem-vindo ao repositório da disciplina **Estrutura de Dados**.
 
 Nesta cadeira, estuda-se a organização, armazenamento e gerenciamento de dados de forma eficiente através do uso de estruturas avançadas (listas, pilhas, filas, árvores, grafos).

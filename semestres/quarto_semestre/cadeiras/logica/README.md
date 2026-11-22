@@ -1,17 +1,19 @@
 # Lógica Matemática
 
+[Voltar ao 4º Semestre](../../README.md)
+
 Bem-vindo ao repositório da disciplina **Lógica Matemática**.
 
-## 📚 Ementa
+## Ementa
 Lógica proposicional e de Primeira Ordem; Formalização de problemas; Sistemas dedutivos: axiomático, natural e tableaux; Correção e Completude. Lógicas Temporais para a Validação de Sistemas.
 
-## 🔗 Links Úteis
-- [📖 Livro - Introdução à Lógica para Computação com Python (Davi Romero)](https://github.com/daviromero/logic4py/tree/main/src/book)
-- [▶️ Playlist de Aulas - Lógica para Computação](https://www.youtube.com/playlist?list=PLfOnKvd6pFiogX1TEA5ZTzZLoC9H-hx9R)
+## Links Úteis
+- [ Livro - Introdução à Lógica para Computação com Python (Davi Romero)](https://github.com/daviromero/logic4py/tree/main/src/book)
+- [▶ Playlist de Aulas - Lógica para Computação](https://www.youtube.com/playlist?list=PLfOnKvd6pFiogX1TEA5ZTzZLoC9H-hx9R)
 
 ---
 
-## 📂 Conteúdo e Cronograma
+## Conteúdo e Cronograma
 
 ### 1. Introdução à Lógica para Computação
 
@@ -35,14 +37,14 @@ Lógica proposicional e de Primeira Ordem; Formalização de problemas; Sistemas
 
 ### 3. Lógica de Primeira Ordem
 
-**Conteúdo:** Linguagem da lógica de primeira ordem; especificação de problemas; semântica, validade e satisfatibilidade; dedução natural. 
+**Conteúdo:** Linguagem da lógica de primeira ordem; especificação de problemas; semântica, validade e satisfatibilidade; dedução natural.
 
 - Linguagem da Lógica de Primeira Ordem
 - Semântica da Lógica de Primeira Ordem
 
 ---
 
-## 📝 Listas e Avaliações
+## Listas e Avaliações
 
 **Listas de Exercícios:**
 - [ ] Lista de Exercícios 1

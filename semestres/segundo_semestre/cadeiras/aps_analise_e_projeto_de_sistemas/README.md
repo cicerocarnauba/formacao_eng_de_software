@@ -1,8 +1,10 @@
 # Análise e Projeto de Sistemas (APS)
 
+[Voltar ao 2º Semestre](../../README.md)
+
 Bem-vindo ao repositório da disciplina **Análise e Projeto de Sistemas**.
 
-## 📂 Estrutura do Diretório
+## Estrutura do Diretório
 
 - **Slides**: Material teórico sobre análise orientada a objetos, diagramas UML (casos de uso, classes, sequência) e arquitetura de sistemas.
 - **Atividades**: Exercícios práticos de modelagem.
