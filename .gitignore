@@ -1,4 +1,4 @@
-# Dependências e caches
+# Dependências, builds e IDEs
 node_modules/
 .expo/
 __MACOSX/
@@ -6,15 +6,19 @@ __MACOSX/
 Thumbs.db
 .venv/
 __pycache__/
+.idea/
+.vscode/
+*.class
+a.out
 
 # Livros (mantidos apenas localmente por direitos autorais; referenciados nos READMEs)
 **/livros/
 
 # Arquivos e pastas específicos ignorados
 semestres/segundo_semestre/cadeiras/ed_estrutura_de_dados/tarefas-higormcarnauba/
-semestres/segundo_semestre/cadeiras/ies_introducao_a_engenharia_de_software/TRABALHO FINAL/Manja,.psd
+semestres/segundo_semestre/cadeiras/ies_introducao_a_engenharia_de_software/trabalho_final/Manja,.psd
 semestres/segundo_semestre/cadeiras/matematica_discreta/anotacoes/Somatório _250919_104042.sdocx
-semestres/terceiro_semestre/cadeiras/pds_projeto_detalhado_de_software/Atividades/chat_simples/draw.io-28.2.5-windows-installer.exe
+semestres/terceiro_semestre/cadeiras/pds_projeto_detalhado_de_software/atividades/chat_simples/draw.io-28.2.5-windows-installer.exe
 semestres/terceiro_semestre/cadeiras/gc_gerencia_de_configuracao/codes/aula1-git
 semestres/terceiro_semestre/cadeiras/gc_gerencia_de_configuracao/codes/aula2_git/exemplo/
 semestres/terceiro_semestre/cadeiras/gc_gerencia_de_configuracao/perfil_git/higormcarnauba/
